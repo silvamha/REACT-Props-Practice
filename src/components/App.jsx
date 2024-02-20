@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import contacts from "../contacts";
 import Avatar from "./Avatar";
+import Paragraph from "./Paragraph"
 
 function App() {
   return (
