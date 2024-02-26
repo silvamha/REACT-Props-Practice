@@ -1,10 +1,13 @@
 import React from "react";
 
 const Paragraph = (props) => {
-    return 
-        <p className ="info">{props.tel}</p>
 
-  
+    return <div >
+          <p className="info">{props.phone}</p> 
+          <p className="info">{props.email}</p>   
+    </div>
+      
+
 }
-
+console.log(Paragraph)
 export default Paragraph;
