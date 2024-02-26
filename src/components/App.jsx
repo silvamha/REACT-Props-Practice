@@ -11,13 +11,13 @@ const populateContacts = contacts.map((contact) => {
     />
   );
 });
-  return <Card 
-       name = {contact.name}
-    img = {contact.imgURL}
-    tel = {contact.phone}
-    email = {contact.email} 
-  />
-})
+
+return (
+  <div>
+    <h1 className="heading">My Contacts</h1>
+    {populateContacts}
+  </div>
+);
 
 
 function App() {
